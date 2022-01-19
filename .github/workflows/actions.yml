@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "0/22 * * * *"
     - cron: "0/23 * * * *"
+    - cron: "0/30 * * * *"
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
